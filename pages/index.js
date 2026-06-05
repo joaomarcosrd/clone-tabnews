@@ -8,7 +8,7 @@ function home() {
 }
 
 function teste2() {
-  console.log("indentação errada");
+  console.log("indentração errada");
 }
 
 export default home;
