@@ -36,7 +36,7 @@ As próximas etapas do projeto englobam a finalização do controle de versão d
       </ul>
     </td>
     <td width="40%" align="center" valign="center">
-      <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXlseGcwNjh3d3U1MmJucWNnczJzcGFxcmVjcXg1ODF1bjc4NGZndyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JIX9t2j0ZTN9S/giphy.webp" alt="Gato Codando" width="100%" />
+      <img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/master/assets/coder.gif" alt="Animação de Código" width="100%" />
     </td>
   </tr>
 </table>
