@@ -22,7 +22,7 @@ As próximas etapas do projeto englobam a finalização do controle de versão d
 
 ---
 
-## Funcionalidades
+### Funcionalidades
 
 <table>
   <tr>
@@ -36,11 +36,10 @@ As próximas etapas do projeto englobam a finalização do controle de versão d
       </ul>
     </td>
     <td width="40%" align="center" valign="center">
-      <img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/master/assets/coder.gif" alt="Animação de Código" width="100%" />
+      <img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" alt="Terminal Rodando Comandos" width="100%" style="border-radius: 8px;" />
     </td>
   </tr>
 </table>
-
 ---
 
 ## Tecnologias Utilizadas:
