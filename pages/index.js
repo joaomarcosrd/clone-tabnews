@@ -132,7 +132,7 @@ export default function Home() {
               }}
             >
               <a
-                href="https://linkedin.com/in/joaomarcosrd"
+                href="https://www.linkedin.com/in/jo%C3%A3o-marcos-de-almeida-rodriques-4980b835b/"
                 target="_blank"
                 rel="noreferrer"
                 style={{
