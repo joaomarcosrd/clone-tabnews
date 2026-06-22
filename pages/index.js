@@ -11,9 +11,12 @@ export default function Home() {
         color: "#1C1A1A",
         padding: "40px 20px",
         boxSizing: "border-box",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
       }}
     >
-      <div style={{ maxWidth: "800px", margin: "0 auto" }}>
+      <div style={{ maxWidth: "800px", margin: "0 auto", width: "100%" }}>
         <div
           style={{
             background: "#FFFFFF",
@@ -60,7 +63,7 @@ export default function Home() {
           >
             <div style={{ width: "160px", position: "relative" }}>
               <img
-                src="/photo_2026-06-22_10-17-35.jpg"
+                src="/perfil.jpg"
                 alt="João Marcos"
                 style={{
                   width: "140px",
@@ -129,7 +132,7 @@ export default function Home() {
               }}
             >
               <a
-                href="https://www.linkedin.com/in/jo%C3%A3o-marcos-de-almeida-rodriques-4980b835b/"
+                href="https://linkedin.com/in/joaomarcosrd"
                 target="_blank"
                 rel="noreferrer"
                 style={{
@@ -200,16 +203,16 @@ export default function Home() {
             >
               &gt;_ quote.txt
             </div>
-            <div style={{ display: "flex" }}>
+            <div style={{ display: "flex", gap: "6px" }}>
               <span
                 style={{
                   display: "inline-block",
                   width: "12px",
                   height: "12px",
                   border: "2px solid #FFFFFF",
+                  background: "#FCE244",
+                  boxShadow: "2px 2px 0px #000",
                   borderRadius: "50%",
-                  marginLeft: "6px",
-                  background: "#FF6A3D",
                 }}
               ></span>
               <span
@@ -218,8 +221,9 @@ export default function Home() {
                   width: "12px",
                   height: "12px",
                   border: "2px solid #FFFFFF",
+                  background: "#FF6A3D",
+                  boxShadow: "2px 2px 0px #000",
                   borderRadius: "50%",
-                  marginLeft: "6px",
                 }}
               ></span>
             </div>
@@ -271,16 +275,16 @@ export default function Home() {
             >
               &gt;_ clone_tabnews.exe
             </div>
-            <div style={{ display: "flex" }}>
+            <div style={{ display: "flex", gap: "6px" }}>
               <span
                 style={{
                   display: "inline-block",
                   width: "12px",
                   height: "12px",
                   border: "2px solid #FFFFFF",
+                  background: "#FCE244",
+                  boxShadow: "2px 2px 0px #000",
                   borderRadius: "50%",
-                  marginLeft: "6px",
-                  background: "#FF6A3D",
                 }}
               ></span>
               <span
@@ -289,8 +293,9 @@ export default function Home() {
                   width: "12px",
                   height: "12px",
                   border: "2px solid #FFFFFF",
+                  background: "#FF6A3D",
+                  boxShadow: "2px 2px 0px #000",
                   borderRadius: "50%",
-                  marginLeft: "6px",
                 }}
               ></span>
             </div>
@@ -306,7 +311,7 @@ export default function Home() {
                 marginTop: "0",
               }}
             >
-              Proojeto Construção do Clone TabNews
+              Construção do Clone TabNews
             </h2>
             <p
               style={{
@@ -390,16 +395,16 @@ export default function Home() {
             >
               &gt;_ infra_homelab.sys
             </div>
-            <div style={{ display: "flex" }}>
+            <div style={{ display: "flex", gap: "6px" }}>
               <span
                 style={{
                   display: "inline-block",
                   width: "12px",
                   height: "12px",
                   border: "2px solid #FFFFFF",
+                  background: "#FCE244",
+                  boxShadow: "2px 2px 0px #000",
                   borderRadius: "50%",
-                  marginLeft: "6px",
-                  background: "#FF6A3D",
                 }}
               ></span>
               <span
@@ -408,8 +413,9 @@ export default function Home() {
                   width: "12px",
                   height: "12px",
                   border: "2px solid #FFFFFF",
+                  background: "#FF6A3D",
+                  boxShadow: "2px 2px 0px #000",
                   borderRadius: "50%",
-                  marginLeft: "6px",
                 }}
               ></span>
             </div>
@@ -421,12 +427,13 @@ export default function Home() {
                 fontWeight: "bold",
                 color: "#FF6A3D",
                 textTransform: "uppercase",
-                marginBottom: "12px",
+                marginBottom: "16px",
                 marginTop: "0",
               }}
             >
-              Projeto Homelab &amp; Infraestrutura Local
+              Homelab & Infraestrutura Local
             </h2>
+
             <p
               style={{
                 fontSize: "14px",
@@ -435,47 +442,339 @@ export default function Home() {
                 marginBottom: "16px",
               }}
             >
-              Arquitetura de um servidor doméstico auto-hospedado focado em
-              centralizar ferramentas e automações. O ambiente roda em um
-              sistema operacional leve, orquestrando múltiplos serviços em
-              containers isolados de forma segura e eficiente.
+              A infraestrutura foi arquitetada do zero utilizando um servidor
+              bare-metal de baixo consumo. Para garantir escalabilidade e
+              isolamento, adotei uma abordagem 100% containerizada com Docker. O
+              roteamento e a segurança da rede foram projetados centralizando a
+              resolução de nomes em um servidor DNS próprio (AdGuard Home)
+              integrado a uma camada de Proxy Reverso (Nginx Proxy Manager),
+              permitindo acesso simplificado a múltiplos serviços internos via
+              domínios customizados.
             </p>
-            <p
+
+            <div
               style={{
-                fontSize: "14px",
-                lineHeight: "1.6",
-                textAlign: "justify",
-                marginBottom: "16px",
+                border: "3px dashed #1C1A1A",
+                padding: "16px",
+                marginBottom: "20px",
+                background: "#F3E4D1",
+                borderRadius: "4px",
               }}
             >
-              A infraestrutura conta com bloqueio de anúncios e rastreadores a
-              nível de rede, além de um proxy reverso responsável por distribuir
-              o tráfego interno através de resolução de DNS customizada. Tudo
-              operando 100% localmente, garantindo total privacidade, sem
-              exposição de dados e sem dependência de nuvem.
-            </p>
-            <div>
-              {["Lubuntu", "Docker", "Nginx Proxy", "AdGuard DNS"].map(
-                (tag) => (
-                  <span
-                    key={tag}
+              <div
+                style={{
+                  fontWeight: "bold",
+                  marginBottom: "16px",
+                  fontSize: "12px",
+                  color: "#1C1A1A",
+                }}
+              >
+                DOCKER ENGINE — ORQUESTRAÇÃO
+              </div>
+
+              <div
+                style={{
+                  display: "flex",
+                  gap: "12px",
+                  flexWrap: "wrap",
+                  marginBottom: "16px",
+                  justifyContent: "center",
+                }}
+              >
+                <div
+                  style={{
+                    flex: "1",
+                    border: "3px solid #1C1A1A",
+                    background: "#FCE244",
+                    padding: "12px",
+                    minWidth: "220px",
+                    boxShadow: "4px 4px 0px #1C1A1A",
+                  }}
+                >
+                  <div style={{ fontWeight: "bold", fontSize: "14px" }}>
+                    AdGuard Home
+                  </div>
+                  <div style={{ fontSize: "11px", marginBottom: "6px" }}>
+                    DNS :53 | adguard.home
+                  </div>
+                  <div
                     style={{
+                      fontSize: "10px",
+                      background: "#1C1A1A",
+                      color: "#FFF",
                       display: "inline-block",
-                      background: "#FCE244",
-                      border: "2px solid #1C1A1A",
-                      color: "#1C1A1A",
-                      padding: "4px 10px",
-                      fontWeight: "bold",
-                      fontSize: "11px",
-                      borderRadius: "16px",
-                      marginRight: "6px",
-                      marginTop: "5px",
+                      padding: "3px 6px",
                     }}
                   >
-                    {tag}
-                  </span>
-                ),
-              )}
+                    DNS rewrite dinâmico
+                  </div>
+                </div>
+
+                <div
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    fontWeight: "bold",
+                    color: "#FF6A3D",
+                    fontSize: "20px",
+                  }}
+                >
+                  &gt;
+                </div>
+
+                <div
+                  style={{
+                    flex: "1",
+                    border: "3px solid #1C1A1A",
+                    background: "#FF6A3D",
+                    color: "#FFF",
+                    padding: "12px",
+                    minWidth: "220px",
+                    boxShadow: "4px 4px 0px #1C1A1A",
+                  }}
+                >
+                  <div style={{ fontWeight: "bold", fontSize: "14px" }}>
+                    Nginx Proxy Manager
+                  </div>
+                  <div style={{ fontSize: "11px", marginBottom: "6px" }}>
+                    HTTP :80 | HTTPS :443
+                  </div>
+                  <div
+                    style={{
+                      fontSize: "10px",
+                      background: "#1C1A1A",
+                      color: "#FFF",
+                      display: "inline-block",
+                      padding: "3px 6px",
+                    }}
+                  >
+                    roteia domínios para containers
+                  </div>
+                </div>
+              </div>
+
+              <div
+                style={{
+                  textAlign: "center",
+                  fontWeight: "bold",
+                  margin: "16px 0",
+                  color: "#1C1A1A",
+                  fontSize: "12px",
+                }}
+              >
+                TRÁFEGO REVERSO ISOLADO
+              </div>
+
+              <div
+                style={{
+                  display: "grid",
+                  gridTemplateColumns: "repeat(auto-fit, minmax(110px, 1fr))",
+                  gap: "10px",
+                  marginBottom: "20px",
+                }}
+              >
+                <div
+                  style={{
+                    border: "2px solid #1C1A1A",
+                    background: "#FFF",
+                    padding: "10px",
+                    textAlign: "center",
+                    boxShadow: "3px 3px 0px #1C1A1A",
+                  }}
+                >
+                  <div
+                    style={{
+                      fontWeight: "bold",
+                      fontSize: "12px",
+                      color: "#FF6A3D",
+                    }}
+                  >
+                    n8n
+                  </div>
+                  <div style={{ fontSize: "10px", color: "#555" }}>
+                    Automação
+                  </div>
+                </div>
+                <div
+                  style={{
+                    border: "2px solid #1C1A1A",
+                    background: "#FFF",
+                    padding: "10px",
+                    textAlign: "center",
+                    boxShadow: "3px 3px 0px #1C1A1A",
+                  }}
+                >
+                  <div
+                    style={{
+                      fontWeight: "bold",
+                      fontSize: "12px",
+                      color: "#2f81f7",
+                    }}
+                  >
+                    Portainer
+                  </div>
+                  <div style={{ fontSize: "10px", color: "#555" }}>
+                    Docker UI
+                  </div>
+                </div>
+                <div
+                  style={{
+                    border: "2px solid #1C1A1A",
+                    background: "#FFF",
+                    padding: "10px",
+                    textAlign: "center",
+                    boxShadow: "3px 3px 0px #1C1A1A",
+                  }}
+                >
+                  <div
+                    style={{
+                      fontWeight: "bold",
+                      fontSize: "12px",
+                      color: "#3fb950",
+                    }}
+                  >
+                    Beszel Hub
+                  </div>
+                  <div style={{ fontSize: "10px", color: "#555" }}>
+                    Monitoramento
+                  </div>
+                </div>
+                <div
+                  style={{
+                    border: "2px solid #1C1A1A",
+                    background: "#FFF",
+                    padding: "10px",
+                    textAlign: "center",
+                    boxShadow: "3px 3px 0px #1C1A1A",
+                  }}
+                >
+                  <div
+                    style={{
+                      fontWeight: "bold",
+                      fontSize: "12px",
+                      color: "#2f81f7",
+                    }}
+                  >
+                    Homepage
+                  </div>
+                  <div style={{ fontSize: "10px", color: "#555" }}>
+                    Dashboard
+                  </div>
+                </div>
+              </div>
+
+              <div
+                style={{
+                  border: "3px solid #1C1A1A",
+                  background: "#FFFFFF",
+                  padding: "12px",
+                  display: "flex",
+                  gap: "10px",
+                  flexWrap: "wrap",
+                  alignItems: "center",
+                  boxShadow: "4px 4px 0px #1C1A1A",
+                }}
+              >
+                <div
+                  style={{
+                    fontSize: "11px",
+                    fontWeight: "bold",
+                    textTransform: "uppercase",
+                    width: "100%",
+                    color: "#1C1A1A",
+                  }}
+                >
+                  Infraestrutura de IA Local
+                </div>
+                <div
+                  style={{
+                    flex: 1,
+                    border: "2px solid #a5a0f5",
+                    padding: "8px",
+                    fontSize: "12px",
+                    textAlign: "center",
+                    minWidth: "120px",
+                  }}
+                >
+                  <strong>Open WebUI</strong>
+                  <br />
+                  (Interface de Chat)
+                </div>
+                <div
+                  className="diagram-arrow"
+                  style={{
+                    fontWeight: "bold",
+                    fontSize: "12px",
+                    color: "#a5a0f5",
+                    margin: "0 auto",
+                  }}
+                >
+                  &gt; API &gt;
+                </div>
+                <div
+                  style={{
+                    flex: 1,
+                    border: "2px solid #d29922",
+                    padding: "8px",
+                    fontSize: "12px",
+                    textAlign: "center",
+                    minWidth: "120px",
+                  }}
+                >
+                  <strong>Ollama</strong>
+                  <br />
+                  (LLMs: Llama, Gemma)
+                </div>
+              </div>
+            </div>
+
+            <p
+              style={{
+                fontSize: "14px",
+                lineHeight: "1.6",
+                textAlign: "justify",
+                marginBottom: "16px",
+              }}
+            >
+              A nível de rede, implementei regras de interceptação DNS para
+              roteamento interno (sufixo .home), ocultando a complexidade da
+              infraestrutura e garantindo que o tráfego permaneça estritamente
+              isolado da internet pública. Para assegurar a estabilidade do
+              sistema sob carga contínua, integrei uma stack de monitoramento
+              ativo. As métricas de telemetria demonstram alta eficiência da
+              arquitetura, mantendo o uso de CPU equilibrado e operando em
+              margens térmicas altamente seguras, provando a viabilidade de
+              hospedar LLMs (Ollama) e automações complexas em hardware
+              restrito.
+            </p>
+
+            <div>
+              {[
+                "Lubuntu",
+                "Docker Compose",
+                "Nginx Proxy",
+                "DNS / AdGuard",
+                "Redes / TCP-IP",
+                "Observabilidade",
+              ].map((tag) => (
+                <span
+                  key={tag}
+                  style={{
+                    display: "inline-block",
+                    background: "#1C1A1A",
+                    border: "2px solid #1C1A1A",
+                    color: "#FFFFFF",
+                    padding: "4px 10px",
+                    fontWeight: "bold",
+                    fontSize: "11px",
+                    borderRadius: "16px",
+                    marginRight: "6px",
+                    marginTop: "5px",
+                  }}
+                >
+                  {tag}
+                </span>
+              ))}
             </div>
           </div>
         </div>
