@@ -26,7 +26,7 @@ As próximas etapas do projeto englobam a finalização do controle de versão d
 
 <table>
   <tr>
-    <td width="60%">
+    <td width="60%" valign="top">
       <ul>
         <li><b>Endpoint de Status:</b> API versionada (<code>/status</code>) para monitoramento da saúde da aplicação.</li>
         <li><b>Arquitetura Limpa:</b> Separação clara de responsabilidades (models, infra, pages).</li>
@@ -35,8 +35,8 @@ As próximas etapas do projeto englobam a finalização do controle de versão d
         <li><b>Banco de Dados:</b> Estrutura preparada para migrations e múltiplos ambientes (staging/production).</li>
       </ul>
     </td>
-    <td width="40%">
-      <img src="https://via.placeholder.com/400x250.png?text=Print+do+seu+Projeto+Aqui" alt="Demonstração do Projeto" />
+    <td width="40%" align="center" valign="center">
+      <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXlseGcwNjh3d3U1MmJucWNnczJzcGFxcmVjcXg1ODF1bjc4NGZndyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JIX9t2j0ZTN9S/giphy.webp" alt="Gato Codando" width="100%" />
     </td>
   </tr>
 </table>
