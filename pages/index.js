@@ -383,7 +383,7 @@ export default function Home() {
                   marginTop: "0",
                 }}
               >
-                Construção do Clone TabNews
+                Projeto Construção do Clone TabNews
               </h2>
               <p
                 style={{
@@ -504,7 +504,7 @@ export default function Home() {
                   marginTop: "0",
                 }}
               >
-                Homelab & Infraestrutura Local
+                Projeto Homelab & Infraestrutura Local
               </h2>
 
               <p
